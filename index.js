@@ -25,3 +25,27 @@ function passwordGen() {
     result4.textContent = password()
 }
 
+function copyAlert1() {
+    const content = result1.textContent
+    navigator.clipboard.writeText(content)
+    alert("Password Copied To Clipboard")
+  }
+
+function copyAlert2() {
+      const content = result2.textContent
+      navigator.clipboard.writeText(content)
+      alert("Password Copied To Clipboard")
+  }
+
+function copyAlert3() {
+    const content = result3.textContent
+    navigator.clipboard.write(content)
+    alert("Password Copied TO Clipboard")
+}
+
+function copyAlert4() {
+    const content = result4.textContent
+    navigator.clipboard.write(content)
+    alert("Password Copied To Clipboard")
+}
+
